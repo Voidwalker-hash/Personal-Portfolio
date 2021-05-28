@@ -14,25 +14,31 @@
 
   <body>
     <!--======== Navbar Section Start ==========-->
-    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <div class="sidebar">
+      <div class="side-menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    
+
+    
+   <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
       <div class="container-lg">
         <a class="navbar-brand text-primary fw-bold fs-4" href="#">Awp</a>
         <div class="dropdown">
-          <button class="btn btn-primary btn-primary px-3" type="button" id="dropdownMenuButton"
+          <button class="btn sidebar-btn btn-primary btn-primary px-3" type="button" id="dropdownMenuButton"
             data-bs-toggle="dropdown" aria-expanded="false">
             <i class="bx bx-menu"></i>
           </button>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#home">Home</a></li>
-            <li><a class="dropdown-item" href="#about">About</a></li>
-            <li><a class="dropdown-item" href="#services">Services</a></li>
-            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-            <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
-            <li><a class="dropdown-item" href="#contact">Contact</a></li>
-          </ul>
         </div>
       </div>
     </nav>
+    
     <!--======== Navbar Section End ==========-->
 
     <!--======== Home =========-->

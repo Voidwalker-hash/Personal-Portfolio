@@ -1,3 +1,20 @@
+$(function(){
+
+$(.)  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
