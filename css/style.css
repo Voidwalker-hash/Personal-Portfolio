@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 /*============= logo/Dropdown button =========*/
 img.rounded-circle.mw-100 {
     width: 75%;
@@ -76,11 +80,27 @@ section#testimonials {
     padding: 20px;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -250px;
     height: 100%;
     z-index: 99999;
-}
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
 
+}
+.sidebar-show {
+    right: 0;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
 .side-menu {
     padding-top: 30px;
     text-align: center;
@@ -94,4 +114,9 @@ section#testimonials {
     font-size: 20px;
     text-transform: uppercase;
     border-bottom: 1px solid;
+}
+/*============= Testimonials =========*/
+
+.test-item.bg-white.shadow-sm.rounded.p-4 {
+    margin: 3px;
 }
