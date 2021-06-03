@@ -120,3 +120,7 @@ section#testimonials {
 .test-item.bg-white.shadow-sm.rounded.p-4 {
     margin: 3px;
 }
+/*============= Services =========*/
+.services-item.shadow-sm.p-4.rounded {
+    background: #ffff;
+}
