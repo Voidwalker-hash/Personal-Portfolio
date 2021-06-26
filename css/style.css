@@ -1,3 +1,31 @@
+/*
+--------------
+Template Name: Simple Portfolio
+Author: ThemeMonster
+Author Email: michaelgomes1717@gmail.com
+Version: 1.00
+------------------
+
+------------------
+Table of Content
+------------------
+1. Navbar Section
+2. Home Section
+3. About Section
+4. Service Section
+5. Portfolio Section
+6. Freelancer Section
+7. Testimonials Section
+8. Contact Section
+9. Footer Section
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
 }
